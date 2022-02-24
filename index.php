@@ -16,8 +16,8 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 require_once ($_SERVER['DOCUMENT_ROOT'] . '/components/Autoload.php');
 
-
 // 3. Установка соединения с DB
+
 // include_once ($_SERVER['DOCUMENT_ROOT'].'/components/Db.php');
 // print_r($_SERVER['DOCUMENT_ROOT'].'/components/Db.php');
 
