@@ -18,11 +18,11 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 require_once ($_SERVER['DOCUMENT_ROOT'] . '/components/Autoload.php');
 
 // 3. Установка соединения с DB
-/11
+//11
 
 // include_once ($_SERVER['DOCUMENT_ROOT'].'/components/Db.php');
 // print_r($_SERVER['DOCUMENT_ROOT'].'/components/Db.php');
-
+//22
 
 
 // 4. Вызов Router

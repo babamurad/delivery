@@ -1,7 +1,7 @@
 <?php
 
     $host = 'localhost';
-    $dbname = 'rcargo';
+    $dbname = 'delivery';
     $user = 'root';
     $pass = '';
 
