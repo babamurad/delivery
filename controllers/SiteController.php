@@ -19,6 +19,5 @@ class SiteController
 
         return true;
     }
-
    
 }
