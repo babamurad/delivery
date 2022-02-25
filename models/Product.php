@@ -16,6 +16,9 @@ class Product
         $db = Db::getConnection();
         $productsList = array();
         $result = $db->query('SELECT p.id, p.name, p.price, p.image, p.is_new, p.is_sale FROM product p WHERE p.status="1" ORDER BY p.id LIMIT ' . $count);
+        if (!$result) {
+            throw new \RuntimeException('SQL query error: ' . $db->error());
+        }
         $i = 0;
         while ($row = $result->fetch()) {
             $productsList[$i]['id'] = $row['id'];
