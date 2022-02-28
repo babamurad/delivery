@@ -16,6 +16,8 @@ class SiteController
         $latestProducts = Product::getLatestProducts(6);
         
         require_once $_SERVER['DOCUMENT_ROOT'] . '/views/site/index.php';
+//        require_once $_SERVER['DOCUMENT_ROOT'] . '/views/user/register.php';
+
 
         return true;
     }

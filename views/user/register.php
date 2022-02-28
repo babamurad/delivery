@@ -22,7 +22,7 @@
 					<h2 class="or">OR</h2>
 				</div>
 				<div class="col-sm-4">
-                    <?php if (isset($errors && is_array($error))): ?>
+                    <?php if (null !== ($errors && is_array($error))): ?>
                     <ul>
                         <?php foreach ($errors as $error): ?>
                         <li> - <?php echo $error; ?></li>
