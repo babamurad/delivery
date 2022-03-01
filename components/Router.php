@@ -54,6 +54,7 @@ class Router
 //print_r('<br>ActionName: '.$actionName.'<br>');
 //                $result = $controllerObject->$actionName($parametres);
                 $result = call_user_func_array(array($controllerObject, $actionName), $parametres);
+                var_dump($result);
                 if ($result != null) {
                     break;
                 }

@@ -11,7 +11,7 @@ class City
     {
         $db = Db::getConnection();
         $cityList = array();
-        $result = $db->query('SELECT id, name FROM city ORDER BY sort_order ASC');
+        $result = $db->query('SELECT id, name FROM city');
         $i = 0;
         while ($row = $result->fetch()) {
             $cityList[$i]['id'] = $row['id'];

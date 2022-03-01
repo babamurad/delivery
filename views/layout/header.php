@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Pizza - Free Bootstrap 4 Template by Colorlib</title>

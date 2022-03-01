@@ -14,7 +14,7 @@
         
         foreach ($array_path as $path) {
             
-            $path = $_SERVER['DOCUMENT_ROOT'] .$path. $class_name . '.php';  
+            $path = $_SERVER['DOCUMENT_ROOT'] . $path. $class_name . '.php';
                        
             if (is_file($path)) {
                
